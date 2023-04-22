@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 11px;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* opacity: 90%; */
+    position: relative;
+    background-image: url(img/1.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    justify-content: center;
+    height: 30rem;
+    margin: auto;
+    backdrop-filter: blur(0.2rem);
+    border-radius: 10rem;
+    /* border: 0.1rem solid white; */
+}
+
+.text {
+    width: 65%;
+    color: rgb(63, 28, 28);
+    font-size: 3.7rem;
+    /* text-align: center; */
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+}
+
+.main .main1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color: rgb(63, 28, 28);
+    width: 6rem;
+    height: 2.2rem;
+    margin: 1rem;
+    /* margin-bottom: 2rem !important;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 0.8rem;
+    padding: 0.1rem;
+}
+
+.main .main2 {
+    width: 50%;
+    /* position: absolute;
+    top: 46%;
+    left: 25%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    background-color: rgb(63, 28, 28);
+    width: 5.5rem;
+    height: 6rem;
+    margin: 1rem;
+    /* margin-top: 240px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+    font-size: 3.8rem;
+    color: white;
+}
+
+#ampm {
+    /* width: 4.5rem; */
+    height: 4rem;
+    align-self:flex-end;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+#am-pm {
+    font-size: 2rem !important;
+}
+
+@media screen and (max-width:900px) {
+    html {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:700px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    html {
+        font-size: 5px;
+    }
+}
